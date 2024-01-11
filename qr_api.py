@@ -25,5 +25,6 @@ with open('qr_code.png', 'wb') as f:
 
 # Save the image to a stream
 buf = BytesIO()
+#Image format png
 img.save(buf, format='PNG')
 image_data = buf.getvalue()
